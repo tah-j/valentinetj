@@ -1,0 +1,136 @@
+
+   /* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; 
+}
+
+/* Header Styles */
+header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    position: relative;
+}
+
+header h1 {
+    margin: 0; 
+    font-size: 2rem; 
+    text-transform: uppercase; 
+}
+
+header nav {
+    margin-top: 10px; 
+}
+
+header ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+header li {
+    margin: 0 15px; 
+}
+
+header a {
+    text-decoration: none; /
+    color: #fff; 
+    font-weight: bold; 
+    padding: 5px 10px; 
+    transition: background-color 0.3s ease; 
+}
+
+header a:hover {
+    background-color: #555; 
+    border-radius: 5px; 
+}
+
+
+main {
+    padding: 20px; 
+    background-color: #fff; 
+    max-width: 1200px; 
+    margin: 20px auto; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+}
+
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;/
+    padding 10px; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+section {
+    margin-bottom: 20px; 
+}
+
+.wrapper {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+.wrapper img {
+    width: 40%;
+    height: auto; 
+    margin-right: 20px; /
+    border-radius: 8px; 
+}
+
+.textbox {
+    max-width: 60%; 
+}
+
+
+h2 {
+    color: #333; 
+    font-size: 1.5rem;
+    border-bottom: 2px solid #f0f0f0; 
+    padding-bottom: 5px; 
+
+p, ul, blockquote {
+    line-height: 1.6; 
+
+blockquote {
+    background-color: #f9f9f9; 
+    border-left: 5px solid #ccc; 
+    padding: 10px 20px; 
+    margin: 15px 0; 
+    font-style: italic; 
+}
+
+ul {
+    list-style-type: disc; 
+    padding-left: 20px; 
+}
+
+
+@media (max-width: 768px) {
+    header ul {
+        flex-direction: column; 
+
+    .wrapper {
+        flex-direction: column; 
+    }
+
+    .wrapper img {
+        width: 100%;
+        margin-bottom: 10px; }
+
+    .textbox {
+        max-width: 100%; 
+    }
+
+    }
